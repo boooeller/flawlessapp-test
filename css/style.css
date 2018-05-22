@@ -692,3 +692,13 @@ button {
   		margin: 25px 0;
 	}
 }
+
+@media screen and (max-width: 450px) {
+	.header-bg-container-phone_img {
+   		display: block;
+	}
+
+	.header-bg-container-phone_img img {
+    	float: right;
+	}
+}
