@@ -540,13 +540,8 @@ button {
 	
 	.header-bg-container-text-caption {
 		margin-bottom: 10px;
-		font-size: 40px;
 	}
 
-	.header-bg-container-text p {
-		font-size: 13px;
-	}
-	
 	.download_button {
 	    margin: 0 0 4% 0;
 	}
