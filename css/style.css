@@ -462,8 +462,8 @@ button {
 		max-width: 992px;
 	}
 
-	.header-bg-icons-container, .slider-container {
-	    padding: 0 1%;
+	.slider-container {
+	    padding: 0 40px;
 	}
 }
 
@@ -484,15 +484,23 @@ button {
 	}
 
 	.header-bg {
-	    padding-top: 3%;
+	    padding: 40px 40px 0;
 	}
+
+	.header-bg-icons-container, .header-bg-container {
+		padding: 0;
+	}
+	
+	/*.header-bg-icons-container, .slider-container {
+    	padding: 0 40px;
+	}*/
 
 	.download_button {
  	   margin-right: 6%;
 	}
 	
 	.slider-container-img {
-    	margin-right: 3%;
+    	margin-right: 8%;
 	}
 
 	.sing-up-container-text-first-caption, .sing-up-container-text-second-caption {
@@ -526,12 +534,8 @@ button {
 	.header-bg-buttons-container {
 	    display: flex;
 	    flex-direction: column;
-	    margin-top: 8%;
+	    margin: 15px 0;
 	    text-align: center;
-	}
-	
-	.header-bg-container {
-	    padding: 0 4.713%;
 	}
 	
 	.header-bg-container-text-caption {
@@ -547,8 +551,21 @@ button {
 	    margin: 0 0 4% 0;
 	}
 
+	.superb-features-container {
+    	margin: 0 auto;
+    	padding: 40px 40px 36px;
+	}
+	
+	.social-signups-container, .todays-menu-container, .app-gallery-container {
+		margin: 40px auto 0;
+	}
+
+	.slider-container {
+		margin: 40px auto;
+	}
+
 	.slider-container-img {
- 	    margin-right: 15%;
+ 	    margin-right: 20%;
 	}
 
 	.social-signups-container-text, .todays-menu-container-text {
@@ -568,7 +585,10 @@ button {
 	.sing-up-container-text, .sing-up-container-form {
     	width: 100%;
 	}	
-
+		
+	.header-bg {
+    	padding: 30px 30px 0;
+	}
 	.header-bg-container-text-caption {
 		text-align: center;
 	}
@@ -583,12 +603,18 @@ button {
 	}
 
 	.header-bg-container-phone_img img {
-    	 float: none; 
+    	float: none; 
 	}
 
+	.superb-features-container {
+	    padding: 30px 30px 25px;
+	}
+	.social-signups-container, .todays-menu-container, 
+	.app-gallery-container {
+		margin: 30px auto 0;
+	}
 	.social-signups-container {
     	flex-direction: column-reverse;
-	    margin: 33px auto 0;
 	    padding: 0 4.078%;
 	}
 
@@ -606,7 +632,6 @@ button {
 	}
 	
 	.todays-menu-container {
-		margin: 33px auto 0;
 	    padding: 0 4.078%;
 	}
 
@@ -616,7 +641,8 @@ button {
 	}
 
 	.slider-container {
- 	   	margin: 35px auto;
+ 	   	margin: 30px auto;
+ 	   	padding: 0 30px;
 	}
 
 	.slider-container-wrapper {
