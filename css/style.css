@@ -25,15 +25,16 @@ button {
 }
 
 .header {
-    display: flex;
-    justify-content: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
 	background-image: url(../images/layer-1.png);
 	background-size: cover;
     opacity: 0.7;
 }
 
 .header-bg {
-    padding-top: 6.672%;
+    padding-top: 90px;
+    margin: 0 auto;
 }
 
 .header-bg-icons-container {
@@ -300,6 +301,7 @@ button {
 }
 
 .img-border img {
+	width: 146px;
 	border: 3px solid transparent;
 	border-radius: 50%;
 }
@@ -329,7 +331,7 @@ button {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 9.637% 6.005%;
+    padding: 110px 6.005% 80px;
 }
 
 .sing-up-container-text {
@@ -472,6 +474,10 @@ button {
 	.container {
 		max-width: 992px;
 	}
+	
+	.header-bg {
+    	padding-top: 60px;
+	}
 
 	.slider-container {
 	    padding: 0 40px;
@@ -513,6 +519,10 @@ button {
 	.slider-container-img {
     	margin-right: 8%;
 	}
+	
+	.sing-up-container {
+	    padding: 80px 6.005% 60px;
+	}
 
 	.sing-up-container-text-first-caption, .sing-up-container-text-second-caption {
 	    line-height: initial;
@@ -529,7 +539,7 @@ button {
 
 	.sing-up-form input {
 		width: 90%;
-		margin: 0 0 4% 0;
+		margin: 0 0 18px 0;
 	}
 	
 	.sing-up-form-button {
@@ -554,7 +564,7 @@ button {
 	}
 
 	.download_button {
-	    margin: 0 0 4% 0;
+	    margin: 0 0 12px 0;
 	}
 
 	.superb-features-container {
@@ -573,9 +583,13 @@ button {
 	.slider-container-img {
  	    margin-right: 20%;
 	}
+	
+	.sing-up-container {
+ 	   padding: 40px 6.005%;
+	}
 
 	.social-signups-container-text, .todays-menu-container-text {
-		padding-bottom: 5%;
+		padding-bottom: 25px;
 	}
 }
 
@@ -624,6 +638,10 @@ button {
 	    padding: 0 4.078%;
 	}
 
+	.social-signups-container-text, .todays-menu-container-text {
+		padding-bottom: 15px;
+	}
+
 	.social-signups-container-img {
 		display: flex;
 	    justify-content: center;
@@ -669,6 +687,10 @@ button {
 
 	.slider-container-text-caption {
 	    text-align: center;
+	}
+
+	.sing-up-container {
+ 	   padding: 30px 6.005%;
 	}
 
 	.sing-up-container-form {
