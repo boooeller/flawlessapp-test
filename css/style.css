@@ -5,6 +5,7 @@ body, h1, h2, h3, h4, p {
 }
 
 button {
+	padding: 0;
 	cursor: pointer;
 }
 
@@ -353,11 +354,11 @@ button {
 }
 
 .sing-up-form input {
-    width: 180px;
-    height: 37px;
+    width: 178px;
+    height: 43px;
     margin: 0 0 4% 4%;
     padding-left: 10px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     color: #eff3f3;
     font-size: 13px;
     font-weight: 400;
@@ -368,9 +369,9 @@ button {
 }
 
 .sing-up-form-button {
-	width: 180px;
+	width: 178px;
 	height: 43px;
-    box-sizing: content-box;
+    box-sizing: border-box;
 	color: #ffffff;
 	font-size: 20px;
 	font-weight: 600;
@@ -522,7 +523,7 @@ button {
 	}
 	
 	.sing-up-form-button {
-		width: calc(90% - 2px)
+		width: 90%;
 	}
 } 
 
@@ -690,7 +691,7 @@ button {
 	}
 
 	.sing-up-form-button {
-   		width: calc(100% - 2px);
+   		width: 100%;
 	}
 
 	.footer {
