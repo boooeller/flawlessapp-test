@@ -250,8 +250,9 @@ button {
 }
 
 .slider-container {
-	margin: 78px auto;
     display: flex;
+    align-items: center;
+	margin: 78px auto;
 }
 
 .slider-container-img {
@@ -285,6 +286,8 @@ button {
 }
 
 .arrow-button {
+	width: 180px;
+	height: 100%;
     margin: 0;
     padding: 0;
     border: none;
@@ -518,6 +521,10 @@ button {
 	
 	.slider-container-img {
     	margin-right: 8%;
+	}
+
+	.img-border img {
+	    width: 100%;
 	}
 	
 	.sing-up-container {
